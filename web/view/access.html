@@ -1,0 +1,101 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="w-75 mx-auto">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Aún no tengo cuenta</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <!-- Default form login -->
+                        <form class="text-center border border-light p-5">
+
+                            <p class="h4 mb-4">Sign in</p>
+
+                            <!-- Email -->
+                            <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+                            <!-- Password -->
+                            <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Password">
+
+                            <div class="d-flex justify-content-around">
+                                <div>
+                                    <!-- Remember me -->
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="defaultLoginFormRemember">
+                                        <label class="custom-control-label" for="defaultLoginFormRemember">Remember me</label>
+                                    </div>
+                                </div>
+                                <div>
+                                    <!-- Forgot password -->
+                                    <a href="">Forgot password?</a>
+                                </div>
+                            </div>
+
+                            <!-- Sign in button -->
+                            <button class="btn btn-info btn-block my-4" type="submit">Sign in</button>
+
+                        </form>
+                        <!-- Default form login -->
+                    </div>
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        <!-- Default form register -->
+                        <form class="text-center border border-light p-5">
+
+                            <p class="h4 mb-4">Sign up</p>
+
+                            <div class="form-row mb-4">
+                                <div class="col">
+                                    <!-- First name -->
+                                    <input type="text" id="defaultRegisterFormFirstName" class="form-control" placeholder="First name">
+                                </div>
+                                <div class="col">
+                                    <!-- Last name -->
+                                    <input type="text" id="defaultRegisterFormLastName" class="form-control" placeholder="Last name">
+                                </div>
+                            </div>
+
+                            <!-- E-mail -->
+                            <input type="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+                            <!-- Password -->
+                            <input type="password" id="defaultRegisterFormPassword" class="form-control" placeholder="Password" aria-describedby="defaultRegisterFormPasswordHelpBlock">
+                            <small id="defaultRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
+                                At least 8 characters and 1 digit
+                            </small>
+
+                            <!-- Phone number -->
+                            <input type="text" id="defaultRegisterPhonePassword" class="form-control" placeholder="Phone number" aria-describedby="defaultRegisterFormPhoneHelpBlock">
+                            <small id="defaultRegisterFormPhoneHelpBlock" class="form-text text-muted mb-4">
+                                Optional - for two step authentication
+                            </small>
+
+                            <!-- Newsletter -->
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="defaultRegisterFormNewsletter">
+                                <label class="custom-control-label" for="defaultRegisterFormNewsletter">Subscribe to our newsletter</label>
+                            </div>
+
+                            <!-- Sign up button -->
+                            <button class="btn btn-info my-4 btn-block" type="submit">Sign in</button>
+                            <hr>
+
+                            <!-- Terms of service -->
+                            <p>By clicking
+                                <em>Sign up</em> you agree to our
+                                <a href="" target="_blank">terms of service</a> and
+                                <a href="" target="_blank">terms of service</a>. </p>
+
+                        </form>
+                        <!-- Default form register -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
